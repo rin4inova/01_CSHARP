@@ -33,6 +33,16 @@ double quotient2 = i1/d1;
 Console.WriteLine (quotient2);
 
 
+// Домашнее задание
+int a = 1;
+int b = 5;
+int c = 9;
+double d = 7;
+double result = (a*b)/(c+d);
+Console.WriteLine ("result = " + result);
+
+
+
 
 
 
