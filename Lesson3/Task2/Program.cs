@@ -1,2 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+void PrintSquare(int limit)
+{
+    int i = 1;
+    while (i <= limit)
+    {
+        Console.Write($"{i * i} ");
+        i++;
+    }
+
+}
+
+PrintSquare(15);
